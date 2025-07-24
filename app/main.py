@@ -8,8 +8,8 @@ from app.models.mayan import MayanKinResponse
 
 app = FastAPI(
     title="Maya Astrolojisi API",
-    description="Doğum tarihinize göre Maya Kin ve Tzolk'in bilgilerini hesaplar.",
-    version="1.0.0"
+    description="Doğum tarihinize göre Maya Kin ve Tzolk'in bilgilerini hesaplar ve yapay zeka destekli yorumlar sunar.",
+    version="1.1.0"
 )
 
 class BirthDateRequest(BaseModel):
@@ -33,7 +33,7 @@ async def get_mayan_kin_get(
     )]
 ):
     try:
-        mayan_data = calculate_mayan_kin(birth_date)
+        mayan_data = await calculate_mayan_kin(birth_date)
         return MayanKinResponse(**mayan_data)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -46,7 +46,7 @@ async def get_mayan_kin_get(
 )
 async def get_mayan_kin_post(request: BirthDateRequest):
     try:
-        mayan_data = calculate_mayan_kin(request.birth_date)
+        mayan_data = await calculate_mayan_kin(request.birth_date)
         return MayanKinResponse(**mayan_data)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

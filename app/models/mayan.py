@@ -7,6 +7,7 @@ class MayanKinResponse(BaseModel):
     tone: int = Field(..., example=1, ge=1, le=13, description="Yaratılışın 13 Galaktik Tonundan biri.")
     day_sign_description: str = Field(..., example="Timsah. Başlangıçlar, yaratıcılık ve beslenme enerjisi.")
     tone_description: str = Field(..., example="Manyetik Ton. Birlik, amaç ve çekim.")
+    ai_interpretation: str = Field(..., description="Yapay zeka destekli kişiselleştirilmiş Maya astrolojisi yorumu.")
     gregorian_date: date = Field(..., description="Hesaplamanın yapıldığı Gregoryen takvim tarihi.")
 
     class Config:
