@@ -1,0 +1,39 @@
+{
+  "day_signs": {
+    "Imix": "Timsah: Başlangıçlar, yaratıcılık ve beslenme enerjisinin sembolüdür. Ana-baba koruyuculuğu, güçlü sezgiler ve yaşam verici güçle bağlantılıdır.",
+    "Ik": "Rüzgar: İletişim, ruh ve yaşam nefesinin sembolüdür. Mesajları taşıyan, değişim getiren ve zihinsel netlik sağlayan bir enerjidir.",
+    "Akbal": "Gece: Gizem, rüyalar ve bilinçaltının sembolüdür. İç bilgelik, meditasyon ve spiritüel keşiflerin enerjisidir.",
+    "Kan": "Kertenkele: Büyüme, potansiyel ve tohum enerjisinin sembolüdür. Yeni başlangıçlar, gelişim ve bolluk manifestasyonuyla ilgilidir.",
+    "Chicchan": "Yılan: Yaşam gücü, içgüdü, hayatta kalma ve dönüşümün sembolüdür. Güçlü, karizmatik ve tutkulu bir enerjiye sahiptir.",
+    "Cimi": "Ölüm: Bitişler, yeniden doğuş ve dönüşümün sembolüdür. Eskiyi bırakma, temizlenme ve yenilenmeFirka enerjisidir.",
+    "Manik": "Geyik: Liderlik, zarafet ve doğal otoritenin sembolüdür. Güçlü, kararlı ve başkalarına ilham veren bir enerjidir.",
+    "Lamat": "Tavşan: Bolluk, şans ve bereket enerjisinin sembolüdür. Yaratıcılık, oyunculuk ve hayatın tadını çıkarmayla ilgilidir.",
+    "Muluk": "Su: Duygular, sezgi ve akış halinin sembolüdür. Temizleyici, iyileştirici ve duyguları dengeleyici bir enerjidir.",
+    "Oc": "Köpek: Sadakat, dostluk ve koşulsuz sevginin sembolüdür. Güvenilir, koruyucu ve toplum odaklı bir enerjidir.",
+    "Chuen": "Maymun: Sanat, yaratıcılık ve neşe enerjisinin sembolüdür. Oyuncu, esprili ve hayata renk katan bir enerjidir.",
+    "Eb": "Yol: Yaşam yolu, kader ve spiritüel yolculuğun sembolüdür. Rehberlik etme, yön gösterme ve bilgelik paylaşımıyla ilgilidir.",
+    "Ben": "Kamış: Otorite, bilgelik ve liderlik enerjisinin sembolüdür. Güçlü, kararlı ve topluma hizmet etme odaklı bir enerjidir.",
+    "Ix": "Jaguar: Şamanizm, sihir ve mistik güçlerin sembolüdür. Güçlü sezgiler, gizli bilgiler ve spiritüel güçle bağlantılıdır.",
+    "Men": "Kartal: Vizyon, özgürlük ve yüksek perspektifin sembolüdür. İlham verici, vizyoner ve büyük resmi görebilen bir enerjidir.",
+    "Cib": "Akbaba: Bilgelik, arınma ve dönüştürücü güçlerin sembolüdür. Temizleyici, iyileştirici ve spiritüel rehberlik eden bir enerjidir.",
+    "Caban": "Toprak: Dünya enerjisi, evrim ve değişim gücünün sembolüdür. Güçlü, köklü ve doğal döngülerle uyumlu bir enerjidir.",
+    "Etznab": "Bıçak: Gerçek, netlik ve keskin zeka enerjisinin sembolüdür. Adaletli, dürüst ve gerçekleri ortaya çıkaran bir enerjidir.",
+    "Cauac": "Fırtına: Değişim, yenilenme ve dönüştürücü güçlerin sembolüdür. Güçlü, dinamik ve köklü değişimler getiren bir enerjidir.",
+    "Ahau": "Işık (veya Güneş): Aydınlanma, bütünlük, tanrısal sevgi ve ustalığın sembolüdür. Sanatsal, sevgi dolu ve evrensel bilinçle bağlantılıdır."
+  },
+  "tones": {
+    "1": "Manyetik Ton (Bir): Birlik, amaç ve çekim gücünün enerjisidir. Yeni başlangıçlar yapmak ve hedefleri net bir şekilde belirlemek için idealdir.",
+    "2": "Lunar Ton (İki): Polarite, meydan okuma ve dengenin enerjisidir. İkilemleri çözme, karşıtlıkları dengeleme ve işbirliği kurma yeteneğini temsil eder.",
+    "3": "Elektrik Ton (Üç): Aktivasyon, hizmet ve harekete geçme enerjisidir. Planları eyleme dökme, başkalarına hizmet etme ve yaratıcı enerjiyi aktifleştirme gücünü simgeler.",
+    "4": "Kendi Kendine Var Olan Ton (Dört): Form, yapı ve istikrarın enerjisidir. Sağlam temeller atma, düzen kurma ve pratik çözümler üretme yeteneğini temsil eder.",
+    "5": "Merkez Ton (Beş): Güçlendirme, komut etme ve merkezileşme enerjisidir. Liderlik yapma, güç toplama ve başkalarını yönlendirme kabiliyetini simgeler.",
+    "6": "Ritmik Ton (Altı): Eşitlik, denge ve örgütlenme enerjisidir. Uyumu sağlama, dengeyi koruma ve grup dinamiklerini yönetme yeteneğini temsil eder.",
+    "7": "Rezonans Ton (Yedi): Uyumlanma, ilham ve mistik bağlantının enerjisidir. Sezgisel bilgiye erişme, spiritüel rehberlik alma ve yaratıcı ilhama açık olma gücünü simgeler.",
+    "8": "Galaktik Ton (Sekiz): Uyum, bütünlük ve modellemenin enerjisidir. İnançları ve eylemleri bütünleştirerek örnek olmayı temsil eder.",
+    "9": "Solar Ton (Dokuz): Niyet, gerçekleştirme ve ışık saçma enerjisidir. Amaçları hayata geçirme, başkalarına ilham verme ve pozitif enerji yayma gücünü simgeler.",
+    "10": "Gezegensel Ton (On): Mükemmelleştirme, tezahür ve somutlaştırma enerjisidir. Projeleri tamamlama, hedeflere ulaşma ve sonuçları görünür kılma yeteneğini temsil eder.",
+    "11": "Spektral Ton (On bir): Serbest bırakma, çözülme ve özgürleşmenin enerjisidir. Eskiyi bırakıp yeniliğe yer açmayı simgeler.",
+    "12": "Kristal Ton (On iki): İş birliği, evrenselleşme ve birlik yaratma enerjisidir. Farklılıkları bir araya getirme, toplumsal uyum sağlama ve kolektif bilince katkıda bulunma gücünü simgeler.",
+    "13": "Kozmik Ton (On üç): Varlık, aşma ve döngüyü tamamlama enerjisidir. Ustalaşma, bilgelik kazanma ve spiritüel olgunluğa erişme yeteneğini temsil eder."
+  }
+}
