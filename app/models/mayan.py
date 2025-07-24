@@ -2,13 +2,13 @@ from pydantic import BaseModel, Field
 from datetime import date
 
 class MayanKinResponse(BaseModel):
-    kin_number: int = Field(..., example=1, description="260 günlük Tzolk'in takvimindeki Kin numarası.")
-    day_sign: str = Field(..., example="Imix", description="Maya gün burcu (Nahual).")
-    tone: int = Field(..., example=1, ge=1, le=13, description="Yaratılışın 13 Galaktik Tonundan biri.")
-    day_sign_description: str = Field(..., example="Timsah. Başlangıçlar, yaratıcılık ve beslenme enerjisi.")
-    tone_description: str = Field(..., example="Manyetik Ton. Birlik, amaç ve çekim.")
-    ai_interpretation: str = Field(..., description="Yapay zeka destekli kişiselleştirilmiş Maya astrolojisi yorumu.")
-    gregorian_date: date = Field(..., description="Hesaplamanın yapıldığı Gregoryen takvim tarihi.")
+    kin_number: int = Field(..., ge=1, le=260, description="Maya Kin numarası (1-260)")
+    day_sign: str = Field(..., description="Maya gün burcu (Nahual)")
+    tone: int = Field(..., ge=1, le=13, description="Galaktik Ton (1-13)")
+    day_sign_description: str = Field(..., description="Gün burcunun detaylı açıklaması")
+    tone_description: str = Field(..., description="Galaktik Tonun detaylı açıklaması")
+    gregorian_date: str = Field(..., description="Hesaplamanın yapıldığı Gregoryen tarih")
+    ai_interpretation: str = Field(..., description="Yapay zeka tabanlı kişisel yorum ve yaşam önerileri")
 
     class Config:
         from_attributes = True

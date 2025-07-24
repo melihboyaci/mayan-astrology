@@ -9,6 +9,7 @@ Bu proje, doğum tarihinize göre Maya takvimindeki Kin numaranızı, gün burcu
 - 20 Maya gün burcu (Nahual) belirleme
 - 13 Galaktik Ton hesaplama
 - Detaylı Türkçe açıklamalar
+- Yapay zeka destekli kişisel yorumlar ve yaşam önerileri
 - RESTful API yapısı
 - Otomatik API dokümantasyonu
 
@@ -88,7 +89,8 @@ print(response.json())
   "tone": 11,
   "day_sign_description": "Işık (veya Güneş): Aydınlanma, bütünlük, tanrısal sevgi ve ustalığın sembolüdür. Sanatsal, sevgi dolu ve evrensel bilinçle bağlantılıdır.",
   "tone_description": "Spektral Ton (On bir): Serbest bırakma, çözülme ve özgürleşmenin enerjisidir. Eskiyi bırakıp yeniliğe yer açmayı simgeler.",
-  "gregorian_date": "2000-01-01"
+  "gregorian_date": "2000-01-01",
+  "ai_interpretation": "🌟 Kişisel Maya Profil Analizi:\n\nKin 260 enerjisi taşıyorsunuz - bu size özel bir kozmik imza verir. Ustalık ve tamamlanma döngüsündesiniz. Bilgeliğinizi paylaşın.\n\nAhau gün burcunuzun getirdiği özellikler: Aydınlanma enerjinizle çevrenizi aydınlatın. Ustalık yolunda ilerleyin.\n\nGalaktik Ton 11 ile: Spektral enerjiniz ile serbest bırakırsınız. Eski kalıpları kırma cesaretiniz vardır.\n\n🔮 Yaşam Önerisi: Maya takvimine göre, şu an evrensel enerjilerle uyum içinde yaşayabileceğiniz özel bir dönemdeysiniz."
 }
 ```
 
@@ -123,6 +125,7 @@ curl -X GET "http://localhost:8000/kin-hesapla?birth_date=1990-05-15"
 | `day_sign_description` | string  | Gün burcunun detaylı Türkçe açıklaması                  |
 | `tone_description`     | string  | Galaktik Tonun detaylı Türkçe açıklaması                |
 | `gregorian_date`       | string  | Hesaplamanın yapıldığı Gregoryen tarih (ISO formatında) |
+| `ai_interpretation`    | string  | Yapay zeka destekli kişisel yorum ve yaşam önerileri    |
 
 ## 🎯 Maya Gün Burçları (20 Nahual)
 
